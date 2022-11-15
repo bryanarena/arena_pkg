@@ -1,0 +1,15 @@
+---
+title: "Package Tutorial"
+author: "Bryan Arena"
+date: "2022-11-15"
+output: html_document
+---
+
+# An Introducion to My R Package
+My R package is **useful** and will contain _three_ functions.
+
+## Installation Instructions
+
+```{r eval=FALSE, include=TRUE}
+install.packages("tidyverse")
+```

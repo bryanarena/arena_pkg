@@ -1,0 +1,6 @@
+^LICENSE\.md$
+^.*\.Rproj$
+^\.Rproj\.user$
+^Final.Data.Analysis.Project\.Rcheck$
+^Final.Data.Analysis.Project.*\.tar\.gz$
+^Final.Data.Analysis.Project.*\.tgz$

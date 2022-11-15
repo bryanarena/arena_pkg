@@ -1,0 +1,18 @@
+Package: Final.Data.Analysis.Project
+Title: Data Functions
+Version: 0.0.0.9000
+Authors@R: 
+    person("Bryan", "Arena", , "bryan.arena@selu.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This R package consists of functions that aid in interpreting and visualizing data. The data in this package includes non other than the data from the surveys.csv dataset.The functions within this R package will make it easier for users to form visual representations of data, just by inputing the dataset necessary. In this case, it will be surveys.csv. 
+License: MIT + file LICENSE
+DEPENDS:
+  R(>=2.10)
+Imports:
+  tidyverse
+Suggests:
+  knitr, rmarkdown
+VignetteBuilder: knitr
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
