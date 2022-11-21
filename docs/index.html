@@ -85,6 +85,11 @@
 <h2 id="usage-examples">Usage Examples<a class="anchor" aria-label="anchor" href="#usage-examples"></a>
 </h2>
 <p>The functions within this R package will make it easier for users to form visual representations of data, just by inputing the dataset necessary. In this case, it will be surveys.csv.</p>
+<p><strong>Cleaning up the data</strong></p>
+<p><em>This function is useful for removing all NAs from the dataset</em> <em>It has been set to show the message “NAs still present”</em> <em>Since the function works, this message will not appear</em> <em>Be sure to load in packages with library function</em> <em>If surveys is placed in a directory with a different name than “Data” place the title of yours in front of slash</em></p>
+<pre class="{r}"><code><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://tidyverse.tidyverse.org" class="external-link">tidyverse</a></span><span class="op">)</span></span>
+<span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va">Final.Data.Analysis.Project</span><span class="op">)</span></span>
+<span><span class="fu">clean_up</span><span class="op">(</span><span class="st">"Data/surveys.csv"</span><span class="op">)</span></span></code></pre>
 <p><strong>Generating a histogram</strong></p>
 <p><em>Be sure to load in packages with library function</em> <em>If surveys is placed in a directory with a different name than “Data” place the title of yours in front of slash</em></p>
 <pre class="{r}"><code><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://tidyverse.tidyverse.org" class="external-link">tidyverse</a></span><span class="op">)</span></span>
