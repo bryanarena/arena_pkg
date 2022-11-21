@@ -27,6 +27,19 @@ install.packages("Final.Data.Analysis.Project")
 ## Usage Examples
 The functions within this R package will make it easier for users to form visual representations of data, just by inputing the dataset necessary. In this case, it will be surveys.csv.
 
+**Cleaning up the data**
+
+_This function is useful for removing all NAs from the dataset_ 
+_It has been set to show the message "NAs still present"_
+_Since the function works, this message will not appear_
+_Be sure to load in packages with library function_
+_If surveys is placed in a directory with a different name than "Data" place the title of yours in front of slash_
+```{r}
+library(tidyverse)
+library(Final.Data.Analysis.Project)
+clean_up("Data/surveys.csv")
+```
+
 **Generating a histogram**
 
 _Be sure to load in packages with library function_
