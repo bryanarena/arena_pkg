@@ -7,7 +7,7 @@ Authors@R:
 Description: This R package consists of functions that aid in interpreting and visualizing data. The data in this package includes non other than the data from the surveys.csv dataset.The functions within this R package will make it easier for users to form visual representations of data, just by inputing the dataset necessary. In this case, it will be surveys.csv. 
 License: MIT + file LICENSE
 DEPENDS:
-  R (>=2.10)
+  R (>= 2.10)
 Imports:
   tidyverse
 Suggests:
