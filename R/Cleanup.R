@@ -4,7 +4,6 @@
 #' 
 #' @return A dataset with no lingering NA values present
 #' 
-#' @examples 
 clean_up <- function(filepath){
   data <- read_csv(filepath)
   clean_up <- data %>% 
