@@ -5,7 +5,10 @@
 #' @return histogram for weight
 #'
 make_hist <- function(filepath){
-  data<-read_csv(filepath)
-  histogram <- hist(data$weight)
+  histogram <- hist(surveys$weight)
   return(histogram)
 }
+  
+
+
+  
